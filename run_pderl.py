@@ -5,6 +5,7 @@ import argparse
 import pickle
 from core.operator_runner import OperatorRunner
 from parameters import Parameters
+import assistive_gym 
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-env', help='Environment Choices: (Swimmer-v2) (HalfCheetah-v2) (Hopper-v2) ' +
