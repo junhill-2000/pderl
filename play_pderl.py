@@ -5,6 +5,7 @@ from parameters import Parameters
 import torch
 import gym
 import argparse
+import assistive_gym
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-env', help='Environment Choices: (HalfCheetah-v2) (Ant-v2) (Reacher-v2) (Walker2d-v2) ' +
